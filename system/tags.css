@@ -1,0 +1,11 @@
+/* Compact, solid semantic tags. */
+:root{--brand-tag-height:22px;--brand-tag-padding-inline:7px;--brand-tag-radius:4px;--brand-tag-font-size:12px;--brand-tag-gap:8px}
+.od-tag,.chips>.chip{--tag-fg:var(--brand-color-text-secondary);--tag-bg:var(--brand-color-fill-secondary);--tag-border:var(--brand-color-border-secondary);display:inline-flex!important;align-items:center!important;justify-content:center;gap:4px;height:var(--brand-tag-height)!important;min-height:var(--brand-tag-height);padding:0 var(--brand-tag-padding-inline)!important;border:1px solid var(--tag-border)!important;border-radius:var(--brand-tag-radius)!important;background:var(--tag-bg)!important;color:var(--tag-fg)!important;font-family:var(--brand-font-family)!important;font-size:var(--brand-tag-font-size)!important;font-weight:500!important;line-height:16px!important;letter-spacing:0;white-space:nowrap;vertical-align:middle;box-sizing:border-box;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;cursor:default}
+.od-tag[data-tone=primary],.chips>.chip{--tag-fg:var(--brand-color-primary-text);--tag-bg:var(--brand-color-primary-bg);--tag-border:var(--brand-color-primary-border)}
+.od-tag[data-tone=success]{--tag-fg:var(--brand-color-success-text,var(--brand-color-primary-text));--tag-bg:var(--brand-color-success-bg);--tag-border:var(--brand-color-success-border)}
+.od-tag[data-tone=warning]{--tag-fg:var(--brand-color-warning);--tag-bg:var(--brand-color-warning-bg);--tag-border:var(--brand-color-warning-border)}
+.od-tag[data-tone=error]{--tag-fg:var(--brand-color-error);--tag-bg:var(--brand-color-error-bg);--tag-border:var(--brand-color-error-border)}
+.od-tag[data-tone=info]{--tag-fg:var(--brand-color-info-text,var(--brand-color-info));--tag-bg:var(--brand-color-info-bg);--tag-border:var(--brand-color-info-border)}
+.od-tags,.chips{display:flex;align-items:center;flex-wrap:wrap;gap:var(--brand-tag-gap)!important}
+.compact .od-tag,.compact .chips>.chip{--brand-tag-height:20px;--brand-tag-padding-inline:6px}
+@media(max-width:639px){.od-tags,.chips{row-gap:8px!important;column-gap:8px!important}}

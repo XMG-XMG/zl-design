@@ -1,0 +1,140 @@
+{
+  "name": "知了",
+  "tagline": "清晰有序，自然成形。",
+  "description": "以灰绿配色、MiSans 排版与局部纯色玻璃构成的产品设计体系。",
+  "sourceUrl": "designmd://product",
+  "seed": {
+    "borderRadius": 8,
+    "colorSuccess": "#30764b",
+    "colorInfo": "#596055"
+  },
+  "logo": {
+    "primary": "logos/logo.png",
+    "alternates": [],
+    "notes": "未提供品牌标志；Product 为文字名称，不构造替代标志。"
+  },
+  "colors": [
+    {
+      "role": "accent",
+      "hex": "#30764b",
+      "oklch": "",
+      "name": "森林绿",
+      "usage": "主要动作与关键链接，用户指定"
+    },
+    {
+      "role": "background",
+      "hex": "#fafbf9",
+      "oklch": "",
+      "name": "清浅底色",
+      "usage": "页面背景，用户指定"
+    },
+    {
+      "role": "foreground",
+      "hex": "#202b23",
+      "oklch": "",
+      "name": "深绿墨色",
+      "usage": "正文与标题，设计扩展"
+    },
+    {
+      "role": "surface",
+      "hex": "#ffffff",
+      "oklch": "",
+      "name": "实色白",
+      "usage": "内容与表单面板，设计扩展"
+    },
+    {
+      "role": "muted",
+      "hex": "#536255",
+      "oklch": "",
+      "name": "次级文字",
+      "usage": "辅助说明，设计扩展"
+    },
+    {
+      "role": "border",
+      "hex": "#cdd5c9",
+      "oklch": "",
+      "name": "柔和边界",
+      "usage": "非交互分隔线，设计扩展"
+    }
+  ],
+  "typography": {
+    "display": {
+      "family": "MiSans",
+      "fallbacks": [
+        "PingFang SC",
+        "Microsoft YaHei",
+        "system-ui",
+        "sans-serif"
+      ],
+      "weights": [
+        600,
+        700
+      ]
+    },
+    "body": {
+      "family": "MiSans",
+      "fallbacks": [
+        "PingFang SC",
+        "Microsoft YaHei",
+        "system-ui",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        500,
+        600
+      ]
+    }
+  },
+  "voice": {
+    "adjectives": [
+      "清晰",
+      "平静",
+      "可信"
+    ],
+    "tone": "以具体、简明的语言帮助用户完成任务。",
+    "messagingPillars": [
+      "阅读优先，材质克制",
+      "实色内容，局部玻璃",
+      "统一令牌，持续编辑"
+    ],
+    "vocabulary": {
+      "use": [
+        "保存设置",
+        "查看详情",
+        "请填写项目名称"
+      ],
+      "avoid": [
+        "虚构指标",
+        "夸张承诺",
+        "无来源评价"
+      ]
+    }
+  },
+  "imagery": {
+    "style": "克制的产品界面表达，不依赖装饰图片。",
+    "subjects": [
+      "真实产品",
+      "授权场景"
+    ],
+    "treatment": "内容图片保留完整比例；图标采用统一线性描边。",
+    "avoid": [
+      "虚构标志",
+      "整页渐变玻璃",
+      "无意义光斑"
+    ],
+    "samples": []
+  },
+  "layout": {
+    "radius": "8px",
+    "borderWeight": "1px",
+    "spacing": "4px unit / 8px rhythm",
+    "postureRules": [
+      "按钮、输入框与面板统一 8px 圆角；小圆角可用 4px，圆形控件保持圆形",
+      "正文 16px，行高 1.625",
+      "640 / 1024 / 1440px 响应式断点",
+      "玻璃仅用于导航、菜单与浮层",
+      "仅支持浅色主题，保留紧凑密度"
+    ]
+  }
+}
